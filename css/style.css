@@ -1,0 +1,137 @@
+body{
+    margin-left: 0px;
+    margin-right: 0px;
+    max-width: 1280px;
+    /* height: 1000px; */
+
+    overflow-x: hidden;
+
+
+}
+a{
+    color: darkblue;
+}
+.left{
+    display: block;  
+    float: left;
+    margin-top: 3px;
+    padding-left: 20px;
+}
+.right{
+    display: block;
+    float: right;
+    margin-top: 20px;
+    padding-right: 30px;
+    font-size: 20px;
+    
+}
+li{
+    /* padding-top: 10px !important; */
+    /* margin: 10px 10px !important; */
+    display: inline !important;
+    
+}
+a{
+    text-decoration: none !important;
+}
+
+nav{
+    background-color: white;
+    position: fixed;
+    border-bottom: 2px solid rgb(31, 19, 19)!important;
+    width: 1280px;
+    height: 80px;
+    font-size: 1.5em;
+}
+#two img{
+    margin: 0px;
+    padding: 0px;
+    width: 1280px;
+    height: 600px;
+}
+
+div, section{
+    border: 1px solid red;
+}
+#outermost {
+    top: 75px;
+    padding-top: 75px;
+  
+}
+#one{
+    width: 1280px;
+
+}
+.grid_4{
+width: 400px;
+}
+
+.grid_12{
+    width: 1280px;
+    margin-top: 0px;
+    padding-top: 10px;
+padding-bottom: 10px;
+    background-color:white;
+    color: black;
+}
+#two{
+    margin: 20px;
+    background-color: white;
+    margin-left: 0px;
+}
+.grid_6{
+    padding: 10px 0px;
+    width: 600px;
+    background-color: white;
+    color: blue;
+}
+
+#three{
+    /* height: 640px; */
+    width: 1280px;
+    margin: 20px;
+
+}
+#three-point-one{
+    margin-left: 0px;
+    padding-left: 0px;
+    color: brown;
+    width: 600px;
+
+}
+#three-point-two{
+    padding: 0px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    color: green;
+    width: 600px;   
+
+}
+
+#three-point-one img{
+    width: 600px;
+    height: 940px;
+}
+
+#three-point-two img{
+    width: 600px;
+    height: 300px;
+}
+
+#foot{
+    float: right;
+    /* position: fixed bottom; */
+    color: aqua;
+    font-size: 15px;
+
+}
+#copy{
+    float: left;
+    /* font-family: georgia; */
+    font-size: 15px;
+    padding-left: 25px;
+}
+footer{
+    border-block: 10px solid black;
+    background-color: grey;
+}
